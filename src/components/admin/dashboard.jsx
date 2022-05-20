@@ -13,8 +13,6 @@ const Dashboard = () => {
 		<div>
 			<h1>Admin Dashboard</h1>
 
-			<Button>to access</Button>
-
 			<Sidebar />
 
 			<Outlet />

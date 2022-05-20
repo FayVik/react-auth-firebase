@@ -18,9 +18,6 @@ const NavBar = () => {
 			<li>
 				<Link to='/posts/2018/06'>Posts</Link>
 			</li>
-			<li>
-				<Link to='/admin'>Admin</Link>
-			</li>
 		</ul>
 	);
 };
