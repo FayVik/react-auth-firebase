@@ -3,14 +3,10 @@
 import React from 'react';
 import Sidebar from './sidebar';
 import { Outlet } from 'react-router-dom';
-// import { Routes, Route } from 'react-router-dom';
-// import Users from './users';
-// import Posts from './posts';
-import Button from '../button';
 
 const Dashboard = () => {
 	return (
-		<div>
+		<div className='container-fluid'>
 			<h1>Admin Dashboard</h1>
 
 			<Sidebar />
